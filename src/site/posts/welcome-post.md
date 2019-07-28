@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.html
 title: "Hello World"
 date: "2019-07-28"
 ---
@@ -9,3 +8,5 @@ date: "2019-07-28"
 Hallo 
 
 This is **bold** and *italic*
+
+with posts.json
