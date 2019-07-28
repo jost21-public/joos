@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  
+
+
+collections:
+  - name: "posts"
+    label: "Notes"
+    folder: "src/site/posts"
+    create: true
+    slug: "{{ slug }}"
+    fields:
+      - {
+        label: "Title", 
+        name: "title", 
+        widget: "string"
+      }
+
+
+media_folder: "images"
