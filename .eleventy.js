@@ -6,12 +6,12 @@ module.exports = function(config) {
 
 	return {
 		dir: {
-			input: "src/site",
+			input: ".",
 			output: "dist",
 			includes: "templates",
 			data: "_data"
 		},
-		templateFormats: ["html", "md", "css"],
+		templateFormats: ["html", "md", "css", "yml"],
 		htmlTemplateEngine: "liquid",
 		markdownTemplateEngine: "liquid"
 	};
