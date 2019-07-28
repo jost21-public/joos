@@ -1,0 +1,15 @@
+{
+  "name": "fahrrad_joos_11ty",
+  "version": "1.0.0",
+  "description": "Static web page for Fahrrad Joos using 11ty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jochen Stehle",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}
