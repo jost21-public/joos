@@ -17,4 +17,4 @@ collections:
       }
 
 
-media_folder: "images"
+media_folder: "./site/images"
