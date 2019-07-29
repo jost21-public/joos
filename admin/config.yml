@@ -17,4 +17,5 @@ collections:
       }
 
 
-media_folder: "./site/images"
+media_folder: "images/uploads"
+public_folder: "/images/uploads"

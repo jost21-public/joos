@@ -1,6 +1,6 @@
 module.exports = function(config) {
 
-	config.addPassthroughCopy("./site/images");
+	config.addPassthroughCopy("./images");
 	config.addPassthroughCopy("./admin");
 
 	config.addCollection("posts", collection => {
