@@ -4,7 +4,7 @@ module.exports = function(config) {
 	config.addPassthroughCopy("./admin");
 
 	config.addCollection("posts", collection => {
-		return collection.getFilteredByGlob("src/site/posts/*.md");
+		return collection.getFilteredByGlob("site/posts/*.md");
 	});
 
 	return {

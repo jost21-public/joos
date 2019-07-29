@@ -3,15 +3,13 @@ layout: layouts/base.html
 welcomeMessage: "Hello"
 ---
 
-
-	<h1>Test Title</h1>
-
-	<p>{{welcomeMessage}} Jochen</p>
-
-
+	<p>{{welcomeMessage}}</p>
+	<p>Here are the blog posts:</p>
 
 	{% for post in collections.posts %}
-		<a href="{{ post.url }}">
-			{{ post.data.title }}
-		</a>
+		<div>
+			<a href="{{ post.url }}">
+				{{ post.data.title }}
+			</a>
+		</div>
 	{% endfor %}
